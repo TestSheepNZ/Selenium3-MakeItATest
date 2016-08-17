@@ -1,3 +1,14 @@
+/*
+ * The following reuses previous scripts using JUnit and includes 
+ * both assertions and validations
+ * 
+ * This code is linked to the following blog article,
+ * http://testsheepnz.blogspot.co.nz/2016/08/automation-24-gui-11-unlocking-true.html
+ * 
+ * For more information - please reread.
+ * 
+ * Mike Talks, Aug 2016
+ */
 
 import java.util.concurrent.TimeUnit;
 
@@ -24,8 +35,6 @@ public class aardvarkTest {
 	{
 		
 		System.out.println("thisTestWillFail");
-		
-		//This test is set to fail
 		
         // Create a new instance of the Chrome driver
         // This copies all the information about the page we've loaded into
